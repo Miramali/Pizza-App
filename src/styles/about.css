@@ -1,59 +1,60 @@
-.about{
-    width:100%;
-    height:90vh;
-    display: flex;
-  flex-direction: column;
-       
 
-}
-.aboutTop{
-    width:100%;
-    height:40%;
-    
+  .about {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .aboutTop {
+    width: 100%;
+    height: 45%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
-}
-.aboutBottom {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .aboutBottom {
     display: flex;
-    
     flex-direction: column;
-    
-    height: 65%;
+    height: 55%;
     align-items: center;
     margin-top: 50px;
   }
-
-
-  .aboutBottom p {
-    width: 60%;
-    height:auto;
-    line-height: 1.5em;
-    margin-bottom: 40px;
-
-  }
-  
   .about .aboutBottom h1 {
     font-family: cursive;
-    
-    font-size: 70px;
-    color: black;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    transform: translateY(-40px);
-    margin:  30px 10px 30px;
+     font-size: 70px;
+     color: black;
+     height: 30px;
+     display: flex;
+     justify-content: center;
+     transform: translateY(-40px);
+   }
+  
+  .aboutBottom p {
+    width: 1200px;
+    margin-top: 30px;
+    line-height: 1.5em;
   }
-  /* @media only screen and (max-width: 1300px) {
-    .aboutBottom {
-      grid-template-columns: 1fr 1fr;
+  
+
+  @media only screen and (max-width: 1300px) {
+    .aboutBottom p{
+      width: auto
     }
   }
   
-  @media only screen and (max-width: 800px) {
-    .m.aboutBottom {
-      grid-template-columns: 1fr;
+  @media only screen and (max-width: 900px) {
+    .aboutBottom p{
+      width: 800px
     }
-  } */
+  }
+  @media only screen and (max-width: 600px) {
+    .aboutBottom p{
+      width: 400px
+    }
+  }
+
+  
